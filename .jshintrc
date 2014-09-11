@@ -1,0 +1,28 @@
+{
+    "bitwise": true,
+    "camelcase": false,
+    "curly": true,
+    "eqeqeq": true,
+    "forin": true,
+    "immed": true,
+    "indent": 4,
+    "latedef": "nofunc",
+    "maxdepth": 4,
+//    "maxlen": 150,
+    "newcap": true,
+    "noarg": true,
+    "noempty": true,
+    "nonew": true,
+    "quotmark": false,
+    "strict": true,
+    "undef": true,
+    "unused": false,
+
+    "boss": true,
+    "eqnull": true,
+    "esnext": false,
+    "laxbreak": false,
+    "node": true,
+    "sub": true
+
+}
