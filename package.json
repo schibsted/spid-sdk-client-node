@@ -29,6 +29,7 @@
     "underscore": "~1.7.0",
     "underscore-contrib": "~0.3.0",
     "request": "~2.40.0",
+    "when": "~3.7.2",
     "simple-oauth2": "~0.2.0"
   }
 }
