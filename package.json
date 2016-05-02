@@ -12,17 +12,20 @@
     "node": ">=0.10.21"
   },
   "scripts": {
-    "test": "grunt nodeunit"
+    "test": "grunt nodeunit",
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "buster": "~0.7.8",
+    "eslint": "^2.7.0",
+    "eslint-config-spt": "^2.0.0",
+    "grunt": "~0.4.1",
+    "grunt-buster": "~0.3.1",
     "grunt-contrib-jshint": "~0.6.4",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.1",
     "grunt-nodemon": "~0.1.2",
-    "grunt-shell": "~0.6.4",
-    "grunt-buster": "~0.3.1",
-    "buster": "~0.7.8"
+    "grunt-shell": "~0.6.4"
   },
   "keywords": [],
   "dependencies": {
