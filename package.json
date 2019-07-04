@@ -9,7 +9,9 @@
   },
   "main": "main",
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "buster": "~0.7.8",
@@ -27,6 +29,8 @@
     "underscore": "~1.7.0",
     "underscore-contrib": "~0.3.0",
     "url": "^0.11.0",
-    "when": "~3.7.2"
-  }
+    "when": "~3.7.2",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
